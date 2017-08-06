@@ -1,0 +1,21 @@
+name: StaffMode
+main: com.funkemunky.Riots.StaffMode
+description: StaffMode plugin 
+version: 1.3
+softdepend: [WorldEdit]
+author: funkemunky
+commands:
+  staffmode:
+     description: Enter/leave staff mode.
+     aliases: [staff, mod, modmode]
+  vanish:
+     description: Turn on/off your disability.
+     aliases: [v]
+  hidestaff:
+permissions:
+  sm.admin:
+    description: Riot staff admin thing node.
+    default: op
+  sm.staff:
+    description: Riot staff mode perm node.
+    default: op
